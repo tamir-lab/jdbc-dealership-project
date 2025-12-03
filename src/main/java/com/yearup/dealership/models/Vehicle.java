@@ -110,6 +110,6 @@ public class Vehicle {
                 ", vehicleType='" + vehicleType + '\'' +
                 ", odometer=" + odometer +
                 ", price=" + price +
-                '}';
+                '}' + "\n";
     }
 }
