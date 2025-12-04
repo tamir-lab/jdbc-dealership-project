@@ -24,6 +24,9 @@ public class SalesDao {
             preparedStatement.setString(1,salesContract.getVin());
             preparedStatement.setDate(2, Date.valueOf(salesContract.getSaleDate()));
             preparedStatement.setDouble(3, salesContract.getPrice());
+            int rows = preparedStatement.executeUpdate();
+
+            System.out.println(rows + " contract(s) added successfully.");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

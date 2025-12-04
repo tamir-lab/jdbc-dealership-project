@@ -29,6 +29,9 @@ public class VehicleDao {
             preparedStatement.setString(7,vehicle.getVehicleType());
             preparedStatement.setInt(8,vehicle.getOdometer());
             preparedStatement.setDouble(9, vehicle.getPrice());
+
+            preparedStatement.executeUpdate();
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

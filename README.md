@@ -22,10 +22,11 @@ The application allows users to view vehicle inventory, search for vehicles by I
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
 
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a User I want to be able to search for a vehicle using a filter, so that I can quickly find the vehicle I’m looking for.
+- As a user, I want to add a new vehicle to a dealership’s inventory so that the dealership’s available vehicles remain accurate and up to date.
+- As a user, I want to create a sales or lease contract for a customer so that completed transactions are recorded and stored properly.
+- As a user, I want to remove a vehicle from a dealership’s inventory so that sold or unavailable vehicles no longer appear in search results.
 
 ## Setup
 
@@ -48,37 +49,31 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Java 17.
+- MySQL Workbench.
 
 ## Demo
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
-
-![Application Screenshot](path/to/your/screenshot.png)
+![DemoGIF.gif](DemoGIF.gif)
+Demo for "Search a vehicle" and "Add a vehicle" options.
 
 ## Future Work
 
-Outline potential future enhancements or functionalities you might consider adding:
 
-- Additional feature to be developed.
-- Improvement of current functionalities.
+- Report creation by csv files output.
+- Filtering by multiple values.
+- Contract creation by csv file output.
 
 ## Resources
 
-List resources such as tutorials, articles, or documentation that helped you during the project.
 
-- [Java Programming Tutorial](https://www.example.com)
-- [Effective Java](https://www.example.com)
+- Pluralsight Workbooks
+- [Potato Sensei](https://github.com/RayMaroun/yearup-fall-section-8-2025)
 
 ## Team Members
 
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
+- Tamir Dmitriev, developer.
 
 ## Thanks
 
-Express gratitude towards those who provided help, guidance, or resources:
-
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
+- Thank you to Potato Sensei

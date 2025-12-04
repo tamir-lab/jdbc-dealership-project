@@ -24,6 +24,11 @@ public class LeaseDao {
             preparedStatement.setDate(2, Date.valueOf(leaseContract.getLeaseStart()));
             preparedStatement.setDate(3, Date.valueOf(leaseContract.getLeaseEnd()));
             preparedStatement.setDouble(4, leaseContract.getMonthlyPayment());
+
+            int rows = preparedStatement.executeUpdate();
+
+            System.out.println(rows + " contract(s) added successfully.");
+
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
